@@ -95,7 +95,3 @@ Item peek(Queue q) {
 
 	return q->front->data;
 }
-
-int get_size(Queue q) {
-	return q->size;
-}
