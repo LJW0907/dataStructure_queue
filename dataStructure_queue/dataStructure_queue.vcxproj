@@ -143,6 +143,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="queueADT.c" />
+    <ClCompile Include="queueADT_circle.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="queueADT.h" />
+    <ClInclude Include="queueADT_circle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
